@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-cusxio-react",
+  "version": "0.0.1",
+  "description": "ESLint shareable react config for cusxio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cusxio/eslint-config-cusxio-react.git"
+  },
+  "author": "Jonathan Chan",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "dependencies": {
+    "eslint-plugin-react": "^4.2.3"
+  }
+}
