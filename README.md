@@ -1,4 +1,4 @@
-# eslint-config-cusxio
+# eslint-config-cusxio-react
 
 > ESLint [shareable react config](http://eslint.org/docs/developer-guide/shareable-configs) for cusxio
 
@@ -20,7 +20,7 @@ In `.eslintrc` add the following:
 
 ## Related
 
-- [eslint-config-cusxio](https://cusxio/eslint-config-cusxio)
+- [eslint-config-cusxio](https://github.com/cusxio/eslint-config-cusxio)
 
 ## License
 
