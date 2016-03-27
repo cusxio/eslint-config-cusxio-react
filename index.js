@@ -37,7 +37,7 @@ module.exports = {
         'react/jsx-pascal-case': 2,
         'react/jsx-space-before-closing': [
             2,
-            'never'
+            'always'
         ],
         'react/jsx-uses-react': 2,
         'react/jsx-uses-vars': 2,
