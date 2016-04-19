@@ -19,6 +19,6 @@
     "eslintconfig"
   ],
   "dependencies": {
-    "eslint-plugin-react": "^4.2.3"
+    "eslint-plugin-react": "^5.0.1"
   }
 }
