@@ -6,6 +6,17 @@ module.exports = {
             jsx: true
         }
     },
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.json']
+            }
+        },
+        react: {
+            pragma: 'React',
+            version: '15.0'
+        }
+    },
     plugins: [
         'react'
     ],

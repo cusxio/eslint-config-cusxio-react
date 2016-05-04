@@ -18,7 +18,10 @@
     "eslint",
     "eslintconfig"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "eslint-plugin-react": "^5.0.1"
+  },
+  "peerDependencies": {
     "eslint-plugin-react": "^5.0.1"
   }
 }
