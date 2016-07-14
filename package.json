@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cusxio-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ESLint shareable react config for cusxio",
   "license": "MIT",
   "repository": {
