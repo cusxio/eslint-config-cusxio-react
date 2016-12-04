@@ -3,10 +3,7 @@
   "version": "0.0.10",
   "description": "ESLint shareable react config for cusxio",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cusxio/eslint-config-cusxio-react.git"
-  },
+  "repository": "cusxio/eslint-config-cusxio-react",
   "author": "Jonathan Chan",
   "files": [
     "index.js"
@@ -22,11 +19,11 @@
     "eslint": "^3.11.1",
     "eslint-config-cusxio": "^0.5.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.5.0"
+    "eslint-plugin-react": "^6.7.1"
   },
   "peerDependencies": {
     "eslint": "^3.11.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.5.0"
+    "eslint-plugin-react": "^6.7.1"
   }
 }
