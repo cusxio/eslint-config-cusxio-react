@@ -3,19 +3,19 @@
 module.exports = {
     parserOptions: {
         ecmaFeatures: {
-            jsx: true
-        }
+            jsx: true,
+        },
     },
     settings: {
         'import/resolver': {
             node: {
-                extensions: ['.js', '.json']
-            }
+                extensions: ['.js', '.json'],
+            },
         },
-        react: {
+        'react': {
             pragma: 'React',
-            version: '15.0'
-        }
+            version: '15.0',
+        },
     },
     plugins: ['react'],
     rules: {
@@ -39,44 +39,44 @@ module.exports = {
         'react/style-prop-object': 2,
         'react/jsx-boolean-value': 2,
         'react/jsx-closing-bracket-location': [
-            2, 'tag-aligned'
+            2, 'tag-aligned',
         ],
         'react/jsx-curly-spacing': [
-            2, 'never'
+            2, 'never',
         ],
         'react/jsx-equals-spacing': [
-            2, 'never'
+            2, 'never',
         ],
         'react/jsx-first-prop-new-line': [
-            2, 'multiline'
+            2, 'multiline',
         ],
         'react/jsx-handler-names': 2,
         'react/jsx-indent': [
-            2, 4
+            2, 4,
         ],
         'react/jsx-indent-props': [
-            2, 4
+            2, 4,
         ],
         'react/jsx-key': 2,
         'react/jsx-no-bind': [
             2, {
-                ignoreRefs: true
-            }
+                ignoreRefs: true,
+            },
         ],
         'react/jsx-no-comment-textnodes': 2,
         'react/jsx-no-duplicate-props': [
             2, {
-                ignoreCase: true
-            }
+                ignoreCase: true,
+            },
         ],
         'react/jsx-no-target-blank': 2,
         'react/jsx-no-undef': 2,
         'react/jsx-pascal-case': 2,
         'react/jsx-space-before-closing': [
-            2, 'always'
+            2, 'always',
         ],
         'react/jsx-uses-react': 2,
         'react/jsx-uses-vars': 2,
-        'react/jsx-wrap-multilines': 2
-    }
+        'react/jsx-wrap-multilines': 2,
+    },
 };
